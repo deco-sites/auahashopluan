@@ -83,7 +83,7 @@ const DEFAULT_PROPS: Props = {
 };
 
 const Testimonal = ({ image, text, user }: Testimonial) => (
-  <div class="flex flex-col items-center gap-9 text-center">
+  <div class="flex flex-col items-center gap-9 text-center bg-red-200 rounded-md p-6">
     {image?.src && (
       <Image
         src={image.src}
